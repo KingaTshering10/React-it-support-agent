@@ -1,0 +1,25 @@
+Sample queries to try against the agent (python main.py "<query>")
+===================================================================
+
+Read-only / routing across tools:
+  1. What's the health of srv-web-03?
+  2. Look up incident INC1002 and tell me which server it affects.
+  3. Analyze the last 30 log lines for srv-db-02 filtered by "timeout".
+  4. Check srv-web-01's health, then look up INC1001, then analyze
+     srv-web-03's logs filtered by "timeout" — summarize all three findings.
+
+Error handling:
+  5. What's the health of srv-unknown-99?          (unknown server -> ERROR path)
+  6. Look up incident INC9999.                      (unknown incident -> ERROR path)
+  7. Analyze 9999 log lines for srv-web-01.          (out-of-range -> validation ERROR)
+
+Human-in-the-loop (critical action):
+  8. Restart srv-web-03, it's been stuck at 91% CPU for 20 minutes per INC1001.
+       -> prompts for approval in the terminal (y/N)
+       -> approve it, then try again and deny it, and compare the agent's
+          final answers in each case.
+
+Multi-step investigation (planning + tool chaining):
+  9. Investigate why srv-db-02 is critical: check its health, look up
+     incident INC1002, review its logs for errors, and recommend whether
+     it should be restarted.

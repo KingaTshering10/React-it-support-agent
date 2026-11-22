@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">ReAct IT Support Agent</title>
+  <desc id="desc">A Python CLI learning lab with Azure OpenAI, LangChain, four validated tools, a mock backend, and an approval checkpoint.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071b24"/><stop offset="1" stop-color="#172740"/></linearGradient>
+  </defs>
+  <rect width="1200" height="340" rx="22" fill="url(#bg)"/>
+  <circle cx="1150" cy="30" r="220" fill="#34d399" opacity=".04"/>
+  <circle cx="690" cy="340" r="180" fill="#818cf8" opacity=".06"/>
+  <g font-family="DejaVu Sans, Arial, sans-serif">
+    <text x="58" y="54" fill="#6ee7b7" font-size="13" font-weight="700" letter-spacing="2">AZURE OPENAI / LANGCHAIN / PYTHON</text>
+    <text x="54" y="120" fill="#f1f5f9" font-size="54" font-weight="700">ReAct</text>
+    <text x="54" y="181" fill="#f1f5f9" font-size="50" font-weight="700">IT Support Agent</text>
+    <text x="58" y="224" fill="#b5cbda" font-size="20">Inspect. Investigate. Ask before acting.</text>
+    <rect x="58" y="263" width="183" height="31" rx="15" fill="#123e3b"/>
+    <text x="149" y="284" text-anchor="middle" fill="#6ee7b7" font-size="11" font-weight="700">4 VALIDATED TOOLS</text>
+    <rect x="253" y="263" width="153" height="31" rx="15" fill="#24334f"/>
+    <text x="329" y="284" text-anchor="middle" fill="#a5b4fc" font-size="11" font-weight="700">MOCK BACKEND</text>
+    <rect x="418" y="263" width="145" height="31" rx="15" fill="#20394a"/>
+    <text x="490" y="284" text-anchor="middle" fill="#93c5fd" font-size="11" font-weight="700">CLI WORKFLOW</text>
+    <rect x="788" y="46" width="354" height="248" rx="18" fill="#0b202b" stroke="#34505b"/>
+    <text x="811" y="78" fill="#7c9cae" font-size="10" font-weight="700" letter-spacing="1">ILLUSTRATIVE WORKFLOW</text>
+    <text x="811" y="120" fill="#dbeafe" font-size="13" font-weight="700">RESTART REQUEST</text>
+    <text x="809" y="158" fill="#f8fafc" font-size="29" font-weight="700">srv-web-03</text>
+    <text x="811" y="183" fill="#94afc1" font-size="12">In-memory server simulation</text>
+    <path d="M811 202 H1117" stroke="#284551"/>
+    <rect x="811" y="222" width="219" height="36" rx="10" fill="#44361f"/>
+    <circle cx="828" cy="240" r="4" fill="#fbbf24"/>
+    <text x="843" y="245" fill="#fde68a" font-size="12" font-weight="700">APPROVAL CHECKPOINT</text>
+  </g>
+</svg>
